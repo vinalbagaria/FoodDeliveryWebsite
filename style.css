@@ -1,0 +1,303 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+body
+{
+	font-family:tahoma;
+}
+.row
+{
+	max-width: 1140px;
+	margin:0 auto;
+}
+.hero
+{
+	position:absolute;
+	width:1140px;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+header
+{
+	background-attachment: fixed;
+	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/home/vinalbagaria/Desktop/pracweb/food.jpg);
+	height:100vh;
+	background-position:  center;
+	background-size: cover;
+}
+h1
+{
+	color: white;
+}
+.main-nav
+{
+	list-style: none;
+	float: right;
+	margin-top: 50px;
+}
+.main-nav li
+{
+	display: inline-block;
+	margin-left: 20px;
+}
+.main-nav li a
+{
+	/*border: thin solid white;*/
+	color: white;
+	text-decoration: none;
+	text-shadow: 3px 2px black;
+	font-size: 90%;
+	font-weight: bold;
+}
+.main-nav li a:hover
+{
+	color: #e67e22;
+	border-bottom: 2px solid #e67e22;
+	transition: all 0.5s linear;
+	padding:10px 0;
+}
+.logo img
+{
+	height: 100px;
+	float: left;
+	margin-top: 30px;
+	margin-right:300px;
+	
+}
+.btn 
+{
+	border: 1px solid #e67e22;
+	padding:10px 30px;
+	color: #e67e22;
+	text-decoration: none;
+	border-radius: 12px;
+	margin-right: 15px;
+	
+}
+/*.button-awesome btn a:hover
+{
+	border: 2px solid #e67e22;
+	transition: height 0.5s linear;
+}*/
+.button-awesome
+{
+	margin-top:40px;
+}
+.button-awesome a:hover
+{
+	background-color: #e67e22;
+	color: white;
+	transform: scale(1.2,1.2);
+	transition: all 0.5s linear ;
+	
+}
+.copy
+{
+	width: 70%;
+	margin-left: 15%;
+	margin-bottom: 20px;
+}
+h3:after
+{
+	width: 100px;
+	height: 2px;
+	background-color: #e67e22;
+	display: block;
+	content:"";
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.features h3
+{
+	margin-top: 80px; 
+	text-transform: uppercase;
+	margin-bottom: 30px;
+
+}
+.row h5
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-transform: capitalize;
+	font-weight: bold;
+}
+.arranging
+{
+	text-align: justify;
+}
+.features i
+{
+	font-size: 50px;
+	color: #e67e22;
+	margin-left: 35%;
+}
+.features h4
+{
+margin: 0 auto;
+}
+.meal-showcase
+{
+	list-style: none;
+	width:100%;
+}
+.meal-showcase li
+{
+	display: block;
+	width: 25%;
+	float: left;
+}
+.meal-photo
+{
+	width:100%;
+	margin:0;
+	overflow: hidden;
+}
+.meal-photo img
+{
+	width: 300px;
+	height: 260px;
+	transform: scale(1.15);
+	transition: all 0.5s;
+
+}
+.meal-photo img:hover
+{
+	transform: scale(1.05);
+	/*transition: transfrom 0.5s;*/
+}
+.meal
+{
+	margin-top: 60px;
+}
+
+.pic img
+{
+	margin-top: 15px;
+	margin-left: 30%;
+}
+
+.work-steps 
+{
+	margin-top: 70px;
+}
+.work-steps div
+{
+	border:1px solid #e67e22;
+	display: inline-block;
+	border-radius: 50%;
+	height:50px;
+	width:50px;
+	text-align: center;
+	line-height: 50px; 
+}
+.work-steps img
+{
+	width: 30%;
+	height: 30%;
+	margin-top: 20px;
+	margin-right: 20px;
+	display: block;
+	float: left;
+	
+}
+/*.work-steps img:hover
+{
+	transform: scale(1.1);
+	transition: all 0.5s ease-in;
+	
+}*/
+.clearfix
+{
+	zoom: 1;
+}
+.clearfix:after
+{
+	visibility: hidden;
+	content: "";
+	height: 0;
+	display: block;
+	clear: both;
+	
+}
+.mobile
+
+{
+	margin-top: 60px;
+}
+.cities h3
+{
+	margin-top:100px;
+	text-align: center;
+	text-transform: uppercase; 
+}
+.cities img
+{
+	width:300px;
+	height: 200px;
+	margin-top: 50px;
+	padding:10%;
+	float: left;
+}
+
+.cities i
+{
+	color: #e67e22;
+}
+.cities h4,i
+{
+margin-left: 26px;
+}
+.testimonials h3
+{
+	margin-top:100px;
+	color: white;
+}
+.testimonials img
+{
+	border-radius: 100%;
+	width:90px;
+	height:90px;
+	margin-right:15px;
+}
+.testimonials p
+{
+	line-height: 25px;
+	margin-top: 60px;
+	text-align: justify;
+	color: white;
+}
+.testimonials cite
+{
+	color: white;
+}
+.testimonials 
+{
+
+	margin-top:70px;
+	background-attachment: fixed;
+	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/home/vinalbagaria/Desktop/pracweb/bg2.jpg);
+	background-position: center;
+	background-size: cover;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	
+}
+.btn-block
+{
+	background-color: #e67e22;
+	color: white;
+	border-radius: 4px;
+	margin-top: 20px;
+}
+.gap
+{
+	margin-top:40px;
+}
+.form
+{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
