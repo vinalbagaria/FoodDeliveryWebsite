@@ -1,2 +1,2 @@
 # FoodDeliveryWebsite
-A Food delivery website where you can place  orders and also view  details about the company. 
+A Food delivery website where you can place  orders for healthy food  and also view  details about the company. 
